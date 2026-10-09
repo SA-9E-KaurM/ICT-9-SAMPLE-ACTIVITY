@@ -1,0 +1,276 @@
+```css
+/* General Reset */
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F0E4;
+    color: #3E3A35;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #557A68;
+    color: white;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #F4D6C1;
+}
+
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlinks a:hover {
+    color: #F4D6C1;
+}
+
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 55px 20px;
+    background: linear-gradient(
+        135deg,
+        #D8E3D5,
+        #E8D4C4,
+        #D1E2E1
+    );
+}
+
+.pfp { 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 6px solid white; 
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #3F6255;
+}
+
+.hero p {
+    color: #66564C;
+}
+
+.highlight {
+    color: #B8654A;
+    font-weight: bold;
+}
+
+
+/* Main Sections */
+
+#about,
+#works,
+#contact {
+    padding: 25px;
+    max-width: 900px;
+    margin: 25px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Section Headings */
+
+#about h1,
+#works h1,
+#contact h1 {
+    background: linear-gradient(
+        90deg,
+        #557A68,
+        #5D8990,
+        #B8654A
+    );
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+
+/* Works */
+
+.works-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.work-item {
+    flex: 1 1 40%;
+    padding: 15px;
+    background-color: #F8F3EA;
+    border-radius: 12px;
+    border-left: 5px solid #B8654A;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.work-item p {
+    color: #557A68;
+    font-weight: bold;
+}
+
+.work-item a {
+    color: #B8654A;
+    font-weight: bold;
+}
+
+
+/* Lists */
+
+ol {
+    background-color: #E8F0EA;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border-left: 5px solid #557A68;
+}
+
+dl {
+    background-color: #F6E8DF;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border-left: 5px solid #B8654A;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+dt {
+    color: #557A68;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+
+/* Contact Form */
+
+.form-container {
+    background-color: #FDFBF7;
+    padding: 30px;
+    border-radius: 15px;
+    width: 600px;
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #B7C8BE;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* Radio and Checkbox Groups */
+
+.checkbox-group,
+.radio-group {
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+}
+
+
+/* Submit Button */
+
+button {
+    margin-top: 20px;
+    background-color: #B8654A;
+    color: white;
+    padding: 13px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #557A68;
+}
+
+
+/* Text */
+
+p,
+ul,
+ol,
+dl,
+form {
+    font-size: 19px;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3F6255;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: white;
+}
+```
